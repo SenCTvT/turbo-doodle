@@ -168,7 +168,7 @@ return 0;
 						
 						//writer.println("The first line");
 						writer.println(arr1[arr[i]]);
-						arr2[i]=1;
+						arr2[arr[i]]=1;
 					}
 					writer.close();
 		
@@ -180,19 +180,19 @@ return 0;
 							e.printStackTrace();
 						}
 					System.out.println(test);
-					/*System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+					System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 					while (input.hasNextLine())
 					{
 						System.out.println(input.nextLine());
 					}
 					System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-				*/	if(test == 1)
+					if(test == 1)
 					{
 						test3 = runProcess2("java Name");
 						//System.out.println(test3);
 						if(test3 == 1)
 						{
-							for(int i =0 ;i<k;i++){
+							for(int i =0 ;i<arr1.length;i++){
 								System.out.println(arr2[i]);
 							}
 						//	System.out.println("4");
